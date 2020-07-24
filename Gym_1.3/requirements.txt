@@ -1,0 +1,6 @@
+Requirements needed :
+
+	* Flask -  pip install flask
+
+	
+	 

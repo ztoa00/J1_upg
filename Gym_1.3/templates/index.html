@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+
+{% block title %}
+
+    Index_Page-Company Name
+
+{% endblock %}
+
+
+{% block body %}
+
+        <div class="container">
+            <form action="{{url_for('search')}}" method="POST">
+                <div class="input-group center">
+                    <input type="search" name="search" placeholder="Enter a Keyword" class="form-control input-group-addon" style="height: 50px;">
+                    <span class="input-group-addon searchBgclr">
+                        <button class="glyphicon glyphicon-search searchBgclr searchButton"></button>
+                    </span>
+                </div>
+            </form>
+        </div>
+
+{% endblock %}

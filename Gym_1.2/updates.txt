@@ -1,0 +1,12 @@
+Updated Features From v1.0 :
+	
+	* Removed Hash For Passwords 	
+	* Removed Change Password Feature From App  
+	* Removed Search Category From Index/Home Page of App
+	* Fixed Some Bugs in SearchBar Responsiveness
+	
+Updated Features From v1.1 :
+
+	* Removed Flask-Login Manager From App
+	* Added session from Flask
+
